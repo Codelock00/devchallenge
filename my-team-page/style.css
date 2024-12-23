@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  padding-left: 3.5rem;
+}
+
+.logo,
+.header-text {
+  flex: 1;
+}
+
+.header .logo {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.7px;
+  letter-spacing: -0.045em;
+  text-align: left;
+}
+
+.header h4 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.header p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
