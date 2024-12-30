@@ -50,3 +50,18 @@ body {
   line-height: 27px;
   text-align: left;
 }
+
+article {
+  margin-bottom: 100px;
+}
+
+.main-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.img-container {
+  position: relative;
+}
