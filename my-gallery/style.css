@@ -95,13 +95,12 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
-  grid-auto-rows: minmax(310px, auto);
   margin: 81px auto 0;
-  width: 960px;
-  height: 961px;
+  width: 100%;
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .image-gallery {
@@ -169,4 +168,18 @@ body {
   margin: 16px 16px 0 0;
   background: url(assets/photo6.png);
   background-size: cover;
+}
+
+@media (400px <= width <= 800px) {
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six {
+    background: none; /* Supprime l'image de fond */
+    grid-column: auto;
+    grid-row: auto;
+    margin: 0; /* Supprime la marge */
+  }
 }
