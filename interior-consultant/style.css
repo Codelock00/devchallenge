@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header,
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body {
+  color: #fff;
+  background-color: #181719;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  font-size: 0.875rem;
+  font-family: "Crimson Pro", sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+}
+
+.title {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+}
+
+/* Main img */
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Lora", sans-serif;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.img-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
