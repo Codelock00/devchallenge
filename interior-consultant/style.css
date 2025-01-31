@@ -38,8 +38,28 @@ nav ul li {
   text-decoration: none;
   list-style: none;
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
 .logo {
   font-size: 0.875rem;
   font-family: "Crimson Pro", sans-serif;
@@ -80,8 +100,84 @@ nav ul li {
   font-family: "Montserrat";
 }
 
+.button-more {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.button-more::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.button-more:hover::after {
+  width: 100%;
+}
+
+.img-box {
+  position: relative;
+}
+
 .img-box img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.designer-box {
+  width: 350px;
+  height: 170px;
+  background-color: #181719;
+  position: absolute;
+  right: 3rem;
+  top: 85%;
+  padding: 26px 24px;
+  color: #fff;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 20px;
+}
+
+.profile-img img {
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.interior-profile span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.interior-profile p {
+  font-family: "Montserrat", sans-serif;
+  color: #828282;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.message-box {
+  display: inline-block;
+  transform: translateY(-10px);
+}
+
+.message-box p {
+  font-weight: bold;
+  max-width: 210px;
+  font-family: "Lora", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
 }
