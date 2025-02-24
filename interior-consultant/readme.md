@@ -11,3 +11,12 @@
     </a>
   </h3>
 </div>
+
+## Built With 🛠️
+
+_Technologies used in the project:_
+
+* [HTML 5](https://es.wikipedia.org/wiki/HTML) - Layout and web structure.
+* [CSS 3](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Style design.
+
+<br>
