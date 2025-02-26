@@ -4,6 +4,8 @@
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
+![Image Alt](https://github.com/Codelock00/devchallenge/blob/main/interior-consultant/Interior-Consultant.png?raw=true)
+
 <div align="center">
   <h3>
     <a href="https://codelock00.github.io/devchallenge/interior-consultant/">
